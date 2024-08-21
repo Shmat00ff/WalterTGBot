@@ -4,7 +4,7 @@ import logging
 import openai
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
-from New_bot import config
+import config
 from bot_promts import program_promt, nutrition_promt
 from database import ChatHistory, session
 from collections import deque
